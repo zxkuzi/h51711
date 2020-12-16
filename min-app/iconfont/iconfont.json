@@ -1,0 +1,261 @@
+{
+  "id": "709653",
+  "name": "基因小程序",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1440886",
+      "name": "返回顶部 ",
+      "font_class": "fanhuidingbu",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "5359052",
+      "name": "下拉-2_复制-01",
+      "font_class": "xiala-_fuzhi-",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "5361444",
+      "name": "下拉-2_复制-01",
+      "font_class": "dakai",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "5355708",
+      "name": "下拉-2",
+      "font_class": "xiala-",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "5350264",
+      "name": "查看-3",
+      "font_class": "chakan-",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "5339792",
+      "name": "问号",
+      "font_class": "wenhao",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "5338797",
+      "name": "报告-2",
+      "font_class": "baogao-",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "5338798",
+      "name": "绷带,包扎,创可贴,bandage",
+      "font_class": "bengdaibaozachuangketiebandage",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "5338799",
+      "name": "便签",
+      "font_class": "bianqian",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "5338800",
+      "name": "发现衣物",
+      "font_class": "faxianyiwu",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "5338801",
+      "name": "急性肠胃炎医疗补偿",
+      "font_class": "jixingchangweiyanyiliaobuchang",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "5338802",
+      "name": "健康",
+      "font_class": "jiankang",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "5338803",
+      "name": "乒乓球-2",
+      "font_class": "pingpangqiu-",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "5338804",
+      "name": "打球",
+      "font_class": "daqiu",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "5338805",
+      "name": "加油-2",
+      "font_class": "jiayou-",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "5338806",
+      "name": "人才-男",
+      "font_class": "rencai-nan",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "5338808",
+      "name": "生鲜-蔬菜4",
+      "font_class": "shengxian-shucai",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "5338809",
+      "name": "人才-女",
+      "font_class": "rencai-nv",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "5338810",
+      "name": "星星号-1",
+      "font_class": "xingxinghao-",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "5338811",
+      "name": "意见反馈",
+      "font_class": "yijianfankui",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "5338812",
+      "name": "专家",
+      "font_class": "zhuanjia",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "5062165",
+      "name": "等待",
+      "font_class": "dengdai-",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "4954596",
+      "name": "手机-2",
+      "font_class": "shouji-",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "4954597",
+      "name": "安全",
+      "font_class": "anquan",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "4942422",
+      "name": "成功",
+      "font_class": "chenggong",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "4942423",
+      "name": "绑定",
+      "font_class": "bangding",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "4942424",
+      "name": "错误-2",
+      "font_class": "cuowu-",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "4942425",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "4942426",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "4942427",
+      "name": "男",
+      "font_class": "nan",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "4942428",
+      "name": "女",
+      "font_class": "nv",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "4942429",
+      "name": "扫描-2",
+      "font_class": "saomiao-",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "4942430",
+      "name": "头像-4",
+      "font_class": "touxiang-",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "4942431",
+      "name": "叹号-15",
+      "font_class": "tanhao-",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "4942432",
+      "name": "投递成功",
+      "font_class": "toudichenggong",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "4942433",
+      "name": "进度条",
+      "font_class": "jindutiao",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    }
+  ]
+}

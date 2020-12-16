@@ -1,0 +1,91 @@
+
+<view class="container" style="padding-top:0">
+  <view class="page-body" style="width:100%">
+      <scroll-view scroll-y="true"  bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+          <swiper indicator-dots="true"
+            autoplay="true" interval="3000" duration="500" circular="true">
+            <block wx:for="{{imageData}}" wx:key="index" wx:for-item="item">
+              <swiper-item>
+                  <image src="{{item.src}}"></image>
+              </swiper-item>
+            </block>
+          </swiper>
+          <!-- //导航 -->
+          <view class="tarBar">
+            <view>
+              <icon class="iconfont icon-bianqian"></icon>
+              <text>取送</text>
+            </view>
+            <view>
+              <icon class="iconfont icon-faxianyiwu"></icon>
+              <text>外卖</text>
+            </view>
+            <view>
+              <icon class="iconfont icon-jixingchangweiyanyiliaobuchang"></icon>
+              <text>提问</text>
+            </view>
+            <view>
+              <icon class="iconfont icon-jiankang"></icon>
+              <text>求助</text>
+            </view>
+            <view>
+              <icon class="iconfont icon-pingpangqiu-"></icon>
+              <text>失物招领</text>
+            </view>
+            <view>
+              <icon class="iconfont icon-shengxian-shucai"></icon>
+              <text>更多</text>
+            </view>
+          </view>
+
+          <!-- 列表 -->
+        <view class="list">
+          <view class="list-item" wx:for="[1,2,3,4,5,6,7,8,9,10,11]">
+            <view class="top">
+              <image src="./../../image/1.jpg"></image>
+              <view>
+                <view class="nameInfo">
+                  <text>我只是打酱油的菜</text>
+                  <icon class="iconfont icon-nv"></icon>
+                </view>
+                <view class="time">
+                  <text>2020-12-16 15:40:32</text>
+                </view>
+              </view>
+            </view>
+            
+            <view class="desc">
+              <view>
+                <text>床前明月光，疑是地上霜。举头望明月，低头思故乡</text>
+              </view>
+              <view>
+                <image src="./../../image/2.jpg"></image>
+              </view>
+              <view class="footer">
+                <view>
+                  <icon class="iconfont icon-anquan"></icon>
+                  <text>北京市</text>
+                </view>
+                <view></view>
+                <view class="right">
+                  <view>
+                    <icon class="iconfont icon-anquan"></icon>
+                    <text>0</text>
+                  </view>
+                  <view>
+                    <icon class="iconfont icon-anquan"></icon>
+                    <text>0</text>
+                  </view>
+                </view>
+              </view>
+
+
+            </view>  
+          </view>
+          
+        </view>
+      </scroll-view>
+  </view>
+  
+</view>
+   
