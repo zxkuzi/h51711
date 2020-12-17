@@ -27,7 +27,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.14.1",
 	"appid": "wxcb699a7f7474a65a",
-	"projectname": "mini-pat",
+	"projectname": "min-app",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

@@ -1,0 +1,11 @@
+<!--pages/publish/index.wxml-->
+<view>
+    <view>上传图片</view>
+    <view class="section">
+      <textarea bindblur="bindTextAreaBlur" placeholder="写下你的感慨" auto-height />
+    </view>
+    <view class="imgContainer">
+      <image src="{{item}}" wx:for="{{imageDataArr}}" wx:key="index"></image>
+    </view>
+    
+</view>

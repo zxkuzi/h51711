@@ -3,7 +3,8 @@
     "pages/home/home",
     "pages/index/index",
     "pages/logs/logs", 
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/publish/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -19,10 +20,10 @@
       "selectedIconPath": "image/selectHome.png"
     },
     {
-      "pagePath": "pages/home/home",
-      "text": "首页",
-      "iconPath": "image/home.png",
-      "selectedIconPath": "image/selectHome.png"
+      "pagePath": "pages/publish/index",
+      "text": "发布",
+      "iconPath": "image/add.png",
+      "selectedIconPath": "image/addSelect.png"
     },
     {
       "pagePath": "pages/mine/mine",
