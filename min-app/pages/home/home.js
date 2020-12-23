@@ -1,5 +1,9 @@
 const order = ['demo1', 'demo2', 'demo3']
-
+const app = getApp();
+wx.cloud.init();
+const db = wx.cloud.database();
+const listInfo = db.collection('listInfo')
+console.log(db)
 Page({
   onShareAppMessage() {
     return {
@@ -7,9 +11,21 @@ Page({
       path: 'page/component/pages/scroll-view/scroll-view'
     }
   },
-
+  onLoad(){
+    console.log(app.globalData)
+   
+  },
+  onShow(){
+    listInfo.get().then(res=>{
+      // console.log(res.data)
+      this.setData({
+        listContent:res.data
+      })
+    })
+  },
   data: {
     toView: 'green',
+    listContent:[],
     imageData:[
       {src:'../../image/1.jpg',index:1},
       {src:'../../image/2.jpg',index:2},
@@ -17,7 +33,18 @@ Page({
       {src:'../../image/4.jpg',index:4},
     ]
   },
+  //图片预览
+  preViewImg(e){
+    console.log(e)
+    let src= e.currentTarget.dataset.src[0];
+    let urls = e.currentTarget.dataset.src;
 
+    console.log(urls)
+    wx.previewImage({
+      // current: src, // 当前显示图片的http链接
+      urls: urls // 需要预览的图片http链接列表
+    })
+  },
   upper(e) {
     console.log(e)
   },

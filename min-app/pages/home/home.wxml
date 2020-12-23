@@ -40,41 +40,43 @@
 
           <!-- 列表 -->
         <view class="list">
-          <view class="list-item" wx:for="[1,2,3,4,5,6,7,8,9,10,11]" wx:key="index">
+          <view class="list-item" wx:for="{{listContent}}" wx:key="index">
             <view class="top">
-              <image src="./../../image/1.jpg"></image>
+              <image src="{{item.avatarUrl}}"></image>
               <view>
                 <view class="nameInfo">
-                  <text>我只是打酱油的菜</text>
-                  <icon class="iconfont icon-nv"></icon>
+                  <text>{{item.name}}</text>
+                  <icon class="iconfont icon-nv" wx:if="{{item.sex==1}}"></icon>
+                  <icon class="iconfont icon-nan" wx:else></icon>
                 </view>
                 <view class="time">
-                  <text>2020-12-16 15:40:32</text>
+                  <text>{{item.createDate}}</text>
                 </view>
               </view>
             </view>
             
             <view class="desc">
-              <view>
-                <text>床前明月光，疑是地上霜。举头望明月，低头思故乡</text>
+              <view class="descText">
+                <text>{{item.desc}}</text>
               </view>
-              <view>
-                <image src="./../../image/2.jpg"></image>
+              <view class="listImgCon">
+              <!-- <text wx:for="{{item.imgUrl}}" wx:for-item="items">{{items}}</text> -->
+                <image wx:for="{{item.imgUrl}}" data-src="{{item.imgUrl}}" wx:for-item="items" src="{{items}}" wx:key="items" bindtap="preViewImg"></image>
               </view>
               <view class="footer">
                 <view>
                   <icon class="iconfont icon-anquan"></icon>
-                  <text>北京市</text>
+                  <text>{{item.location}}</text>
                 </view>
                 <view></view>
                 <view class="right">
                   <view>
                     <icon class="iconfont icon-anquan"></icon>
-                    <text>0</text>
+                    <text>{{item.comment}}</text>
                   </view>
                   <view>
                     <icon class="iconfont icon-anquan"></icon>
-                    <text>0</text>
+                    <text>{{item.start}}</text>
                   </view>
                 </view>
               </view>

@@ -57,6 +57,28 @@ view{
   margin-right: 30rpx;
   border-radius: 50%;
 }
+.descText{
+  padding-right: 30rpx;
+  padding-left: 30rpx;
+}
+.listImgCon{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-right: 30rpx;
+  padding-left: 30rpx;
+}
+.listImgCon image{
+  width:180rpx;
+  height: 180rpx;
+  margin-right: 0;
+  border-radius: 10rpx;
+  border: 1px solid red;
+}
+.listImgCon::after{
+  content:"";
+  width:180rpx;
+}
 .list-item>.top{
   display: flex;
 }
@@ -82,9 +104,9 @@ view{
   color: #888888;
 }
 .desc image{
-  width:120rpx;
-  height: 120rpx;
-  border-radius: 10rpx;
+  /* width:120rpx;
+  height: 120rpx; */
+  
 }
 
 .footer{

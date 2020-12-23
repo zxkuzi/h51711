@@ -1,6 +1,6 @@
 // pages/index/to_news/to_news.js
 var app = getApp();
-var util = require("../../../utils/util.js")
+// var util = require("../../../utils/util.js")
 var message = '';
 var text = '';
 var user = {};

@@ -1,11 +1,39 @@
 <!--pages/publish/index.wxml-->
-<view>
-    <view>上传图片</view>
+<!-- <view>
+    <view bindtap="upImage">上传图片</view>
     <view class="section">
       <textarea bindblur="bindTextAreaBlur" placeholder="写下你的感慨" auto-height />
     </view>
     <view class="imgContainer">
       <image src="{{item}}" wx:for="{{imageDataArr}}" wx:key="index"></image>
     </view>
+    <button bindtap="subMitMessage">提交</button>
     
+</view> -->
+
+<!--miniprogram/pages/fb/fb.wxml-->
+<view class='pages'>
+  <!-- <view class='top'><text class='top_name'>商品图片：</text></view> -->
+  <view class="header">
+    <image src="../../image/close1.png"></image>
+    <view class="publishStatus noStatus" bindtap='fb'>发布</view>
+  </view>
+  <view class="section">
+      <textarea bindblur="bindTextAreaBlur" bindblur="getValue" placeholder="写下你的感慨" value="{{textAreaValue}}" maxlength="150" placeholder-class="textPlaceholder"/>
+    </view>
+  <!-- 图片 -->
+  <view class="images_box">
+    <block wx:key="imgbox" wx:for="{{imgbox}}">
+      <view class='img-box'>
+        <image class='img' src='{{item}}'></image>
+        <view class='img-delect' data-deindex='{{index}}' bindtap='imgDelete1'>
+          <image class='img close' src='../../image/close.png'></image>   
+          <!-- <icon class="iconfont icon-cuowu-"></icon> -->
+        </view>
+      </view>
+    </block>
+    <view class='img-box' bindtap='addPic1' wx:if="{{imgbox.length<9}}" style='background:#f2f2f2'>
+      <image class='imgadd' src='../../image/add1.png'></image>   
+    </view>
+  </view>
 </view>
