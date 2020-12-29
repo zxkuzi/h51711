@@ -1,6 +1,7 @@
 const app = getApp();
 
 const db = wx.cloud.database();//初始化数据库
+
 Page({
   /**
     * 页面的初始数据
@@ -10,7 +11,9 @@ Page({
     fileIDs: [],//上传云存储后的返回值
     textAreaValue:''
   },
-
+  onLoad(){
+    console.log(app.globalData)
+  },
   // 删除照片 &&
   imgDelete1: function (e) {
     let that = this;
